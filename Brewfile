@@ -1,15 +1,9 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
-# Modern replacement for 'ls'
-brew "exa"
-# Distributed revision control system
-brew "git"
-# UNIX shell (command interpreter)
-brew "zsh"
-cask "alfred"
-cask "dropbox"
-cask "google-chrome"
-cask "visual-studio-code"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Bridge helper for fx_cast Firefox extension to enable Chromecast support
+cask "fx-cast-bridge"
