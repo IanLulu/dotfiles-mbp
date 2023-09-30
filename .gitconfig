@@ -1,1 +1,9 @@
-/Users/yan/.gitconfig
+[user]
+	name = IanLulu
+	email = ilulu2@uic.edu # try out no reply github email for privacy
+
+# [2023.09.30, 15:50 edit (comments. From Fireship dotfiles video)]
+# - Set the default editor (nano, VS Code, etc.)
+# - Customize color output
+# - Create aliases (shortcuts for Git subcommands)
+# - Add endpoint shortcuts for commonly used URLs
