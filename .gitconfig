@@ -7,3 +7,9 @@
 # - Customize color output
 # - Create aliases (shortcuts for Git subcommands)
 # - Add endpoint shortcuts for commonly used URLs
+
+# git alias to combine git add and commit in one
+# save some seconds lol
+[alias]
+	add-commit = !git add . && git commit # must use single quotes if using -m flag
+	# or use git add -A / --all or git add -u
